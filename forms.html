@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form accept="#" method="post">
+        <div>
+            <label>Primer nombre</label>
+            <input type="text" name="primerNombre" maxlength="10" placeholder="Ingrese su primer nombre" value="David" required/>
+            <div>
+                <label>Contraseña</label>
+                <input type="password" name="pwd"/>
+            </div>
+            <div>
+                <label>Edad</label>
+                <input type="number" name="edad" min="1" max="100"/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="example@email.com"/>
+            </div>
+            <div>
+                <label>Archivo</label>
+                <input type="file" name="Archivo" multiple/>
+            </div>
+            <div>
+                <label>Color</label>
+                <input type="color" name="color"/>
+            </div>
+            <div>
+                <label>Fecha</label>
+                <input type="date" name="Fecha"/>
+            </div>
+            <div>
+                <label>Fecha y hora</label>
+                <input type="datetime-local" name="FechaHora"/>
+            </div>
+            <div>
+                <label>Ciudad</label>
+                <select name="ciudad"> 
+                    <option value="">Seleccione una ciudad</option>
+                    <option value="1">Tunja</option>
+                    <option value="2">Duitama</option>
+                    <option value="3">Sogamoso</option>
+                </select> 
+            </div>
+            <div>
+                <label>Estado cívil</label>
+                <label>
+                    <input type="radio" name="estadoCivil" value="a">
+                    Soltero/a
+                </label>
+                <label>
+                    <input type="radio" name="estadoCivil" value="b">
+                    Biudo
+                </label>
+                <label>
+                    <input type="radio" name="estadoCivil" value="c">
+                    Casado/a
+                </label>
+            </div>
+            <div>
+                <label>Pasa tiempos</label>
+                <label>
+                    <input type="checkbox" name="deportes">
+                    Deportes
+                </label>
+                <label>
+                    <input type="checkbox" name="videoJuegos">
+                    Video juegos
+                </label>
+                <label>
+                    <input type="checkbox" name="lectura">
+                    Lecturas
+                </label>
+            </div>
+            <div>
+                <label>Justifique</label>
+                <textarea name="Justifique" rows="10" cols="40">Hola xd</textarea>
+            </div>
+            <div>
+                <input type="button" value="Botón">
+                <button disabled>Botón</button>
+            </div>
+            <div>
+                <input type="reset" value="Limpiar">
+                <button type="reset">Limpiar</button>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
