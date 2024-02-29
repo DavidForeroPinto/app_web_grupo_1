@@ -1,0 +1,9 @@
+header{
+    width: 100vw;
+    height: 250px;
+    background-color: #2bff00;
+    background-image:url('../resource/bg/ovni.png'),url('https://autolab.com.co/wp-content/uploads/2023/05/mercedes-amg-g-63.webp');
+    background-size: 100px, cover;
+    background-repeat: no-repeat;
+    background-position: 50px 100px, 0px 0px;
+}

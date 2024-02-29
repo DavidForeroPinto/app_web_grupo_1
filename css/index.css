@@ -1,0 +1,30 @@
+div{
+    border: 10px solid #000;
+}
+
+#subTitulo{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    background-color: #d64242;
+    text-decoration: underline;
+    color: rgb(17, 255, 0);
+}
+body {
+    font-family: Arial, sans-serif;
+    color: red;
+}
+h1 {
+    color: #00FF00; /* Verde */
+}
+
+p {
+    color: rgb(255, 0, 255); /* Magenta */
+}
+
+span {
+    color: rgba(0, 0, 255, 0.5); /* Azul con transparencia */
+}
+body {
+    background-color: lightblue; /* Cambia el color de fondo a azul claro */
+}
